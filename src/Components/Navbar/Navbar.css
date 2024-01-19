@@ -1,0 +1,28 @@
+/* Your CSS file, e.g., styles.css */
+.navigation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #333;
+  }
+  
+  .navigation-list li {
+    margin: 0;
+  }
+  
+  .navigation-list li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navigation-list li a:hover {
+    background-color: #555;
+  }
+  
+  .navigation-list li a.active {
+    background-color: #f2a4a4; /* Change the color for the active link */
+  }
+  
